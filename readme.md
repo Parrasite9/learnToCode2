@@ -1,6 +1,7 @@
 ![GA Logo](https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/General_Assembly_logo.svg/1280px-General_Assembly_logo.svg.png)
 
 # General Assembly SEIR Polyglot
+##### Written by Alex Merced
 
 So you are near done with your GA SEIR Program and are interested in trying out a 3rd or even 4th language. Below you'll find lessons in a few other languages along with a walk-through on the basics of building an API with the most popular web framework in that language.
 
@@ -26,16 +27,24 @@ When learning web frameworks in different languages or the same language always 
 - [Intro to PHP](https://generalassembly.zoom.us/rec/share/i3SahMji7MkdHmgeGQUnvCZE0HTryLM4YW6c4bhVdxYjRVl5EfCqtGNB7cPUyuef.vjzyVFps3MvtCOV8)
 - [Intro to Laravel](https://generalassembly.zoom.us/rec/share/ZUBqssGVWxia4HDWuo8T6iVwggA8jPBQAgbiDLVnO4fIbx3jxEiIRfz8zIe5ninT.Z0g0e8A9tNAOFc-9)
 
+## Self-Guided Lesson Markdowns
+
+- [Python](/python)
+- [Ruby](/ruby)
+- [PHP](/php)
+- [Java](/java)
+- [C#](/cs)
+- [GO](/go)
+- [Rust](/rust)
+- [Dart](/dart)
+- [React, Angular, Svelte, Vue](/frontend)
+
+**all the language lessons build the same todos api with postgres and the frontend lessons consume it, so mix and match**
+
 ## Other Languages
-
-- Java is one of the most used languages around, popular with it's Spring Boot framework. Kotlin, the hot new language for creating mobile apps also works with the Spring Boot framework
-
-- Go and Rust have become popular for use cases in which C & C++ would be used for speed. Popular frameworks are Buffalo for GO and Rocket for Rust.
 
 - Swift is the scripting language that has become popular for building iOS apps, popular web frameworks include Vapor and Kitura
 
 - Elixir is a functional language that uses the Erlang Virtual Machine, the concurrency features of the EVM have made Elixir a growing language with its Phoenix framework.
 
-- Dart is another language created by Google (like GO) that has become popular for it's flutter compiler that allows you to compile mobile apps for Android and iOS. It can also be used for web with the web frameworks Aqueduct and Angel.
 
-###### Markdown Created by Alex Merced
