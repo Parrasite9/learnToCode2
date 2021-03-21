@@ -259,8 +259,35 @@ pub fn destroy(id: i32) -> String {
     ])
 ```
 
-- Test all your routes, and head on into the lab!
- 
+## Handling Cors in Rocket
+
+add the following to your Cargo.toml
+
+```rust
+rocket_cors = "0.5.2"
+```
+
+then add this to your main.rs
+
+```rust
+//import the crate
+extern crate rocket_cors;
+
+//create a cors struct and attach it as a fairing
+fn main() {
+
+    // Create CORS STRUCT
+    let corsOptions = rocket_cors::CorsOptions::default();
+    print!("{:?}", corsOptions);
+    let mut CORS = corsOptions.to_cors().expect("this didn't work");
+
+    // igniting the rocket app
+    rocket::ignite()
+    .attach(CORS)
+```
+
+This default to very open settings, if you want to customize it further read the [documentation for rocket_cors.](https://lawliet89.github.io/rocket_cors/rocket_cors/index.html)
+
 ---
 
 ## Resources to Learn More
